@@ -1,0 +1,83 @@
+/* ---------------------Fondo de la pagina----------------------*/
+body{
+    background-color: #000000;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 2000 1500'%3E%3Cdefs%3E%3Cpath fill='none' stroke-width='200' stroke-opacity='0.09' id='a' d='M0.74-509.63l485.39 352.65l-185.4 570.61h-599.97l-185.4-570.61L0.74-509.63 M0.74-510.87l-486.56 353.51l185.85 571.99h601.42L487.3-157.36L0.74-510.87L0.74-510.87z'/%3E%3C/defs%3E%3Cg style='transform-origin:center'%3E%3Cg transform='rotate(72 0 0)' style='transform-origin:center'%3E%3Cg transform='rotate(-145.6 0 0)' style='transform-origin:center'%3E%3Cg transform='translate(1000 750)'%3E%3Cuse stroke='%23000000' href='%23a' transform='rotate(9.1 0 0) scale(1.091)'/%3E%3Cuse stroke='%2300203a' href='%23a' transform='rotate(18.2 0 0) scale(1.182)'/%3E%3Cuse stroke='%23002946' href='%23a' transform='rotate(27.3 0 0) scale(1.273)'/%3E%3Cuse stroke='%23003453' href='%23a' transform='rotate(36.4 0 0) scale(1.364)'/%3E%3Cuse stroke='%23004060' href='%23a' transform='rotate(45.5 0 0) scale(1.455)'/%3E%3Cuse stroke='%23004d6d' href='%23a' transform='rotate(54.6 0 0) scale(1.546)'/%3E%3Cuse stroke='%23005a7b' href='%23a' transform='rotate(63.7 0 0) scale(1.637)'/%3E%3Cuse stroke='%23006789' href='%23a' transform='rotate(72.8 0 0) scale(1.728)'/%3E%3Cuse stroke='%23007597' href='%23a' transform='rotate(81.9 0 0) scale(1.819)'/%3E%3Cuse stroke='%230083a5' href='%23a' transform='rotate(91 0 0) scale(1.91)'/%3E%3Cuse stroke='%230091b3' href='%23a' transform='rotate(100.1 0 0) scale(2.001)'/%3E%3Cuse stroke='%23009fc2' href='%23a' transform='rotate(109.2 0 0) scale(2.092)'/%3E%3Cuse stroke='%2300add1' href='%23a' transform='rotate(118.3 0 0) scale(2.183)'/%3E%3Cuse stroke='%2300bce0' href='%23a' transform='rotate(127.4 0 0) scale(2.274)'/%3E%3Cuse stroke='%2300cbf0' href='%23a' transform='rotate(136.5 0 0) scale(2.365)'/%3E%3Cuse stroke='%2308DAFF' href='%23a' transform='rotate(145.6 0 0) scale(2.456)'/%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+    background-attachment: fixed;
+    background-size: cover;
+    width: 100%;
+    max-width: 1310px;
+    padding: 10px;
+    Font-family: Century Gothic;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.contenedor{
+    width: 100%;
+    max-width: 1310px;
+    padding: 0 auto;
+}
+
+/* ---------------------Diseño cabecera--------------------- */
+/* ---------------------Logo cabecera de las paginas--------------------- */
+.logo_cabecera{
+    height: 100px;
+    position: static;
+}
+
+.logo_cabecera_subpaginas{
+    width: 150px;
+    position: absolute;
+    background-size: contain;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+/* ---------------------Diseño cabecera de las paginas--------------------- */
+.cabecera {
+    width: 101%;
+    padding: 0 10px;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(255, 255, 255);
+}
+
+.cabecera_subpaginas {
+    width: 100%;
+    padding: 0 10px;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #FFFFFF;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' %3E%3Cdefs%3E%3ClinearGradient id='a' x1='0' x2='0' y1='0' y2='1' gradientTransform='rotate(0,0.5,0.5)'%3E%3Cstop offset='0' stop-color='%23FFF5F5'/%3E%3Cstop offset='1' stop-color='%23313131'/%3E%3C/linearGradient%3E%3C/defs%3E%3Cpattern id='b' width='14' height='14' patternUnits='userSpaceOnUse'%3E%3Ccircle fill='%23FFFFFF' cx='7' cy='7' r='7'/%3E%3C/pattern%3E%3Crect width='100%25' height='100%25' fill='url(%23a)'/%3E%3Crect width='100%25' height='100%25' fill='url(%23b)' fill-opacity='0.08'/%3E%3C/svg%3E");
+    background-attachment: fixed;
+}
+
+/* ---------------------Diseño body--------------------- */
+/* ---------------------Logo de la pagina principal--------------------- */
+#logo_grande{
+    width: 500px;
+}
+
+/* ---------------------Diseño del titulo de la pagina principal--------------------- */
+.titulo_principal{
+    color: white;
+    position: absolute;
+    top: 180px;
+    left: 490px;
+    font-size: 500%;
+    text-shadow: 5px 5px 5px rgb(4, 4, 4);
+}
+
+/* ---------------------Diseño del titulo del catalogo--------------------- */
+#titulo_catalogo{
+    color: white;
+    position: absolute;
+    top: 890px; left: 480px;
+    font-size: 70px;
+}
+
