@@ -6,26 +6,48 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <title>Rioartes</title>
-    <link rel="icon" href="multimedia/img/icono/logo.ico">
+    <link rel="icon" href="multimedia/icono/logo.ico">
     <link rel="stylesheet" href="css/style_web.css"/>
     <link rel="stylesheet" href="css/style_buttons.css"/>
-    <link rel="stylesheet" href="css/style_register.css">
 
 </head>
-<body onload="cargar_pagina()"> 
+<body> 
     <div class="contenedor">
         <div class="cabecera"> 
             <div class="contenedor_cab">
-                <img class="logo_cabecera" src="multimedia/img/png/logo.png" alt="Imagen_logo_pagina">
+                <img class="logo_cabecera" src="multimedia/png/logo.png" alt="Imagen_logo_pagina">
+            </div>
+            <div class="container_reloj">
+                <div>
+                    <p id="dia"></p>
+                </div>
+                <div>
+                    <label id="hora"></label>
+                </div>
+                <div>
+                    <label>:</label>
+                </div>
+                <div>
+                    <label id="minutos"></label>
+                </div>
+                <div>
+                    <label>:</label>
+                </div>
+                <div>
+                    <label id="segundos"></label>
+                </div>
+                <div>
+                    <label id="ampm"></label>
+                </div>
             </div>
             <div>
                 <a class="boton secundary" href="html/riodeoro.html">Rio de Oro</a>
-                <a class="boton" href="html/register.html">INICIAR SESIÓN</a>
+                <a class="boton" href="html/login.html">INICIAR SESIÓN</a>
             </div>
         </div> 
         <div class="cuerpo">
             <div>
-                <img id="logo_grande" src="multimedia/img/png/logo.png" alt="">
+                <img id="logo_grande" src="multimedia/png/logo.png" alt="">
             </div>
             <div class="titulo_principal">
                 <h1 >
@@ -36,9 +58,20 @@
                 <a class="boton cat" href="html/catalogo.html">CATALOGO</a>
             </div>
         </div>
+        <!-- <div class="aviso_cookies activo" id="aviso_cookies">
+            <img class="cookie" src="multimedia/png/cookie.png" alt="">
+            <h3 class="titulo_cookies">Cookies</h3>
+            <p class="parrafo">Utilizamos cookies propias y de terceros para mejorar nuestros servicios.</p>
+            <button class="boton_cookies" id="boton_cookies" onclick="boton_cookies()">De acuerdo</button>
+            <a class="enlace" href="https://policies.google.com/technologies/cookies?hl=es">Aviso de Cookies</a>
+        </div>
+        <div class="fondo_aviso_cookies activo" id="fondo_aviso_cookies"></div> -->
     </div>
-    <script src="js/funtion.js"></script>
+    
     <script src="https://code.jquery.com/jquery-3.6.1.js" integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI=" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.5/dist/jquery.validate.min.js"></script>
-</body>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="js/funtion_reloj.js"></script>
+    <script src="js/funtion_cookies.js"></script>
+ 
+</body >

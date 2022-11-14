@@ -15,7 +15,6 @@ body{
 }
 .contenedor{
     width: 100%;
-    max-width: 1310px;
     padding: 0 auto;
 }
 
@@ -81,3 +80,75 @@ body{
     font-size: 70px;
 }
 
+/* RELOJ */
+
+.container_reloj{
+    width: 300px;
+    height: 100%;
+    color: rgb(0, 0, 141);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    gap: 20px;
+}
+
+/* DISEÑO COOKIES */
+
+.aviso_cookies{
+    display: none;
+    background: #FFFFFF;
+    padding: 20px;
+    width: calc(100%-40px);
+    max-width: 300px;
+    line-height: 150%;
+    border-radius: 10px;
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    z-index: 100;
+    padding-top: 60px;
+    box-shadow: 0px 2px 20px 10px black;
+    text-align: center;
+}
+
+.aviso_cookies.activo{
+    display: block;
+}
+
+.aviso_cookies .cookie{
+    max-width: 100px;
+    position: absolute;
+    top: -50px;
+    left: calc(50% - 50px);
+}
+
+.aviso_cookies .parrafo,
+.aviso_cookies .titulo_cookies{
+    margin-bottom: 15px;
+}
+
+.aviso_cookies  .enlace{
+    color: blue;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.aviso_cookies .enlace:hover{
+    text-decoration: underline;
+}
+
+.fondo_aviso_cookies{
+    display: none;
+    background: rgb(0, 0, 0, .20);
+    position: fixed;
+    z-index: 99;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+}
+
+.fondo_aviso_cookies.activo{
+    display: block;
+}

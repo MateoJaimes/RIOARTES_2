@@ -27,3 +27,25 @@
     border-color: rgb(0, 0, 0);
     color: black;
 }
+
+.boton_cookies{
+    width: 300px;
+    background: blue;
+    border-radius: 30px;
+    border: none;
+    color: white;
+    text-align: center;
+    padding: 15px 20px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: .3 ease all;
+    margin-bottom: 15px;
+    font-size: 14px;
+}
+
+.boton_cookies:hover{
+    background: rgb(0, 0, 141);
+}
+
+
+
