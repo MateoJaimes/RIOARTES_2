@@ -19,10 +19,19 @@ const actualizar_hora = setInterval(function(){
     if (horas > 12){
         horas = horas - 12;
     }
-    
+    if (horas < 10){
+        horas = "0"+horas;
+    }
+    if (minutos < 10){
+        minutos = "0"+minutos;
+    }
+    if (segundos < 10){
+        segundos = "0"+segundos;
+    }
 
     hr.innerHTML = horas;
     min.innerHTML = minutos;
     seg.innerHTML = segundos;
     ap.innerHTML = ampm;
+
 },1000);
