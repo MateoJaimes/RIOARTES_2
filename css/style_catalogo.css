@@ -1,0 +1,44 @@
+.contenedor_cat{
+    max-width: 1100px;
+    width: 300px;
+    display: flex;
+    
+}
+
+.mostrador{
+    width: 100%;
+    transition: .5s ease;
+    margin-top: 200px;
+    left: 50%;
+    transform: translate(25%);
+    
+}
+.mostrador .fila{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.item{
+    background-color: rgb(255, 255, 255);
+    width: 400px;
+    padding: 30px;
+    height: 200px;
+    text-align: center;
+    margin: 0 10px;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: .3s;
+}
+
+.mostrador .fila .item:hover{
+    background-color: rgb(255, 255, 255);
+}
+
+.imagen_producto{
+    width: 80px;
+}
+
+.icono_compra{
+    width: 20px;
+}

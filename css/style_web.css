@@ -18,6 +18,10 @@ body{
     padding: 0 auto;
 }
 
+.cuerpo{
+    padding-bottom: 40px;
+}
+
 /* ---------------------Diseño cabecera--------------------- */
 /* ---------------------Logo cabecera de las paginas--------------------- */
 .logo_cabecera{
@@ -35,7 +39,7 @@ body{
 
 /* ---------------------Diseño cabecera de las paginas--------------------- */
 .cabecera {
-    width: 101%;
+    width: 100%;
     padding: 0 10px;
     border-radius: 30px;
     display: flex;
@@ -78,19 +82,6 @@ body{
     position: absolute;
     top: 890px; left: 480px;
     font-size: 70px;
-}
-
-/* RELOJ */
-
-.container_reloj{
-    width: 300px;
-    height: 100%;
-    color: rgb(0, 0, 141);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 30px;
-    gap: 20px;
 }
 
 /* DISEÑO COOKIES */
@@ -160,4 +151,43 @@ body{
 
 .fecha{
     letter-spacing: .01em;
+}
+
+/* FOOTER */
+#footer{
+    width: 100%;
+    padding: 0 10px;
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    background-color: white;
+    border-radius: 30px;
+    justify-content: space-between;
+
+}
+
+.contenedor_redes{
+    padding: 30px;
+    margin-right: 30px;
+}
+
+#logo_footer{
+    width: 100px;
+    padding: 30px;
+}
+
+#footer h5{
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+.imagen_red_social{
+    width: 30px;
+}
+
+#footer ul{
+    list-style: none;
+}
+
+#footer li{
+    font-size: 20px;
 }

@@ -1,23 +1,4 @@
 /* ---------------------Diseño de los links de las cabeceras de las paginas--------------------- */
-.boton{
-    display: inline-block;
-    border: 2px solid rgb(1, 1, 157);
-    padding: 10px 50px;
-    font-weight: 600;
-    text-transform: uppercase;
-    text-decoration: none;
-    background: rgb(1, 1, 157);
-    font-size: 15px;
-    min-width: 10%;
-    text-align: center;
-    color: rgb(255, 255, 255);
-    border-radius: 30px;
-}
-
-.boton.secundary{
-    background-color: transparent;
-    color: rgb(1, 1, 157);
-}
 
 .boton.cat{
     position: absolute;
@@ -26,6 +7,15 @@
     background-color: #F7FF00;
     border-color: rgb(0, 0, 0);
     color: black;
+    display: inline-block;
+    padding: 10px 50px;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 15px;
+    min-width: 10%;
+    text-align: center;
+    border-radius: 30px;
 }
 
 .boton_cookies{
@@ -47,5 +37,11 @@
     background: rgb(0, 0, 141);
 }
 
-
+.boton_usuario{
+    width: 30px;
+    padding: 30px;
+}
+.boton_usuario:hover{
+    width: 32px;
+}
 
